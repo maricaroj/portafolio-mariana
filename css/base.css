@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.aboutme-name{
+    font-family: 'Mansalva', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(193, 76, 169);
+
+}
+
+/* COMIENZA TEXTO FLOTANTE AL PASAR EL CURSOR POR BLOCKQUOTE */
+
+/* Invisible texto */
+.quote-translation{
+    display: none; 
+    transition: all .5s;
+}
+  /* Visible texto */
+  blockquote:hover > .quote-translation{
+    display: inline-flex;
+    transition: all .5s;
+    width: 850px;
+    height: 50px;
+    background-color: rgba(248, 154, 181, 0.616);
+    color: rgb(54, 64, 163);
+    font-size: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* TERMINA TEXTO FLOTANTE AL PASAR EL CURSOR POR BLOCKQUOTE */
+
+body{
+    font-family: 'montserrat', sans-serif;
+    color: rgb(0, 0, 0)
+}
+
+/* 
+paleta de colores
+#f89ab5, #f650a6, #c14ca9, #6e40a0, #3640a3 */
