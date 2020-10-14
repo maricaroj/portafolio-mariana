@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0)
+}
+ul{
+    list-style: none;
+}
+.section-title{
+    font-size: 45px;
+    font-weight: 900px;
+    margin: 10px 0;
+}
+.section-description{
+    width: 400px;
+    text-align: center;
+    font-size: 17px;
+    margin: 10px 0 20px 0;
+}
+/* 
+paleta de colores
+#f89ab5, #f650a6, #c14ca9, #6e40a0, #3640a3 */

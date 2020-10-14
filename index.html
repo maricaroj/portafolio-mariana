@@ -8,7 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/348feffef2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/00-main.css">
+    <link rel="stylesheet" href="./css/01-header.css">
+    <link rel="stylesheet" href="./css/02-aboutme.css">
+    <link rel="stylesheet" href="./css/03-knowledge.css">
+    <link rel="stylesheet" href="./css/04-quote.css">
+    <link rel="stylesheet" href="./css/05-projects.css">
     <title>Mariana Juárez</title>
 </head>
 <body>
@@ -26,7 +31,7 @@
                     <a href="#projects" class="header-nav-link">PROYECTOS</a>
                 </li>
                 <li class="header-nav-item">
-                    <a href="#contact" class="header-nav-link nav-buttom">CONTACTO</a>
+                    <a href="#contact" class="header-nav-link nav-button">CONTACTO</a>
                 </li>
             </ul>
         </nav>
@@ -41,11 +46,12 @@
                 <div class="aboutme-info">
                     <p class="aboutme-greeting">¡Hola! Soy</p>
                     <h1 class="aboutme-name">Mariana Juárez</h1>
-                    <p class="aboutme-text">Desarrolladora, Abogada, Respostera</span>
-                    <a href="#projects" class="aboutme-button">LO QUE HAGO</a>
+                    <p class="aboutme-text">Desarrolladora, Abogada, Respostera</p>
+                    <a href="#projects"><button class="aboutme-button">LO QUE HAGO</button></a>
                 </div>
-                <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                    <img src="./img/00-aboutme.svg" class="aboutme-img" alt="Imagen Aboutme" width="300px">
+                <figure class="aboutme-info">
+                    <img src="./img/00-aboutme.svg" class="aboutme-img" alt="Imagen Aboutme">
+                </figure>
             </article>
         </section>
         <!-- *** TERMINA SECCION ABOUTME *** -->
@@ -53,32 +59,38 @@
         <!-- *** COMIENZA SECCION KNOWLEDGE *** -->
         <section class="knowledge" id="knowledge">
             <article class="knowledge-container">
-                <h2 class="section-title">Mis Conocimientos</h2>
-                <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab doloribus deleniti animi laboriosam similique aliquam sequi ex.</p>
+                <div class="knowledge-text">
+                    <h2 class="section-title">Mis Conocimientos</h2>
+                    <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab doloribus deleniti animi laboriosam similique aliquam sequi ex.</p>
+                </div>
                 <div class="knowledge-grid">
-                    <div class="knowledge-item">
-                        <i class="devicon-html5-plain colored"></i>
-                        <p class="skill-title">HTML 5</p>
+                    <div class="knowledge-item-row">
+                        <div class="knowledge-item">
+                            <i class="devicon-html5-plain colored knowledge-icon"></i>
+                            <p class="icon-title">HTML 5</p>
+                        </div>
+                        <div class="knowledge-item">
+                            <i class="devicon-css3-plain colored knowledge-icon"></i>
+                            <p class="icon-title">CSS 3</p>
+                        </div>
+                        <div class="knowledge-item">
+                            <i class="devicon-sass-original colored knowledge-icon"></i>
+                            <p class="icon-title">Sass</p>
+                        </div>
                     </div>
-                    <div class="knowledge-item">
-                        <i class="devicon-css3-plain colored"></i>
-                        <p class="skill-title">CSS 3</p>
-                    </div>
-                    <div class="knowledge-item">
-                        <i class="devicon-sass-original colored"></i>
-                        <p class="skill-title">Sass</p>
-                    </div>
-                    <div class="knowledge-item">
-                        <i class="devicon-javascript-plain colored"></i>
-                        <p class="skill-title">JavaScript</p>
-                    </div>
-                    <div class="knowledge-item">
-                        <i class="devicon-react-original colored"></i>
-                        <p class="skill-title">React</p>
-                    </div>
-                    <div class="knowledge-item">
-                        <i class="devicon-git-plain colored"></i>
-                        <p class="skill-title"></p>
+                    <div class="knowledge-item-row">
+                        <div class="knowledge-item">
+                            <i class="devicon-javascript-plain colored knowledge-icon"></i>
+                            <p class="icon-title">JavaScript</p></a>
+                        </div>
+                        <div class="knowledge-item">
+                            <i class="devicon-react-original colored knowledge-icon"></i>
+                            <p class="icon-title">React</p>
+                        </div>
+                        <div class="knowledge-item">
+                            <i class="devicon-git-plain colored knowledge-icon"></i>
+                            <p class="icon-title">Git</p>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -88,10 +100,10 @@
         <!-- *** COMIENZA SECCION QUOTE *** -->
         <section class="quote">
             <article class="quote-container">
-                <i class="fas fa-quote-right"></i>
+                <i class="fas fa-quote-right quote-icon"></i>
                 <blockquote>
                 <p class="quote-text">Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says: <q>I'll try again tomorrow</q></p>
-                <p class="quote-translation">El coraje no siempre ruje. A veces coraje es la voz bajita al final del día diciendo: <q>Trataré otra vez mañana</q></p>
+                <p class="quote-translation">El coraje no siempre ruje. A veces coraje es la voz bajita al final del día diciendo: "Trataré otra vez mañana"</p>
                 </blockquote>
                 <h2 class="quote-autor">Mary Anne Radmacher</h2>
             </article>
@@ -101,13 +113,15 @@
         <!-- *** COMIENZA SECCION PROJECTS *** -->
         <section class="projects" id="projects" >
             <article class="projects-contanier">
-                <h2 class="section-title">Mis Proyectos</h2>
-                <p class="section-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum odit saepe ratione non pariatur molestiae.</p>
+                <div class="projects-text">
+                    <h2 class="section-title">Mis Proyectos</h2>
+                    <p class="section-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum odit saepe ratione non pariatur molestiae.</p>
+                </div>
                 <div class="projects-grid">
                     <a href="#" class="projects-item" target="_blanc">
                     <!-- COLOCAR LA IMAGEN CUANDO ESTE LISTA LA SECCION WELCOME -->
                     <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/00-aboutme.svg" alt="Portafolio" width="300px">
+                        <img src="./img/01-portfolio.png" alt="Portafolio" width="300px">
                     <p class="projects-item-description">Portfolio</p>
                     </a>
                     <a href="#" class="projects-item" target="_blanc">
