@@ -24,19 +24,25 @@
     color:rgb(245, 180, 198);
     font-size: 1.1rem;
 }
+.footer-nav-link:hover{
+    color: rgb(54, 64, 163) ;
+}
 .footer-social-menu{
     display: flex;
     justify-content: center;
 }
-.footer-social-item{
+.footer-social-link{
+    color: rgb(193, 76, 169); 
     background-color:rgb(245, 180, 198);
+    border: 1px solid rgb(245, 180, 198);
     border-radius: 100px;
     padding: 5px 10px;
     font-size: 2rem;
     margin: 20px 15px;
 }
-.footer-social-link{
-    color: rgb(193, 76, 169); 
+.footer-social-link:hover{
+    background-color:rgb(193, 76, 169);
+    color: rgb(245, 180, 198);
 }
 .footer-text{
     font-size: 1.1rem;
