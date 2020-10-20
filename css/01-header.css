@@ -1,11 +1,11 @@
-header{
+.header-content{
     width: 100%;
     height: 9vh;
     padding: 30px;
     background-color: rgb(255,255,255) ;
     box-shadow: 0 0 20px 0 rgba(46, 46, 46, 0.384);
     position: fixed;
-    /* margin: auto; */
+    transition: 0.5s;
 }
 .header-nav{
     display: flex;
@@ -19,10 +19,14 @@ header{
     margin: 0px 10px;
 }
 .header-nav-link{
-    padding: 10px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 1.1rem;
 }
 .header-nav-link:hover{
     color: rgb(193, 76, 169);
+    box-shadow: 0 0 5px 0 rgba(193, 76, 169, 0.384);
+    
 }
 .nav-button{
     background-color: rgb(193, 76, 169);

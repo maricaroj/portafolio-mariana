@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/348feffef2.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/00-main.css">
@@ -14,11 +15,13 @@
     <link rel="stylesheet" href="./css/03-knowledge.css">
     <link rel="stylesheet" href="./css/04-quote.css">
     <link rel="stylesheet" href="./css/05-projects.css">
+    <link rel="stylesheet" href="./css/06-contact.css">
+    <link rel="stylesheet" href="./css/07-footer.css">
     <title>Mariana Juárez</title>
 </head>
 <body>
     <!-- *** COMIENZA HEADER *** -->
-    <header>
+    <header class="header-content">
         <nav class="header-nav">
             <ul class="header-nav-menu">
                 <li class="header-nav-item">
@@ -119,39 +122,31 @@
                 </div>
                 <div class="projects-grid">
                     <a href="#" class="projects-item" target="_blanc">
-                    <!-- COLOCAR LA IMAGEN CUANDO ESTE LISTA LA SECCION WELCOME -->
-                    <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/01-portfolio.png" alt="Portafolio" width="300px">
-                    <p class="projects-item-description">Portfolio</p>
+                        <img src="./img/01-portfolio.png" class="projects-item-img" alt="Portafolio">
+                        <p class="projects-item-description">Portfolio</p>
                     </a>
                     <a href="#" class="projects-item" target="_blanc">
-                        <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/02-generador-memes.svg" class="projects-item-img" alt="Generador de Memes" width="300px">
+                        <img src="./img/02-generador-memes.svg" class="projects-item-img" alt="Generador de Memes">
                         <p class="projects-item-description">Generador de Memes</p>
                     </a>
                     <a href="#" class="projects-item" target="_blanc">
-                        <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/03-match3.svg" class="projects-item-img" alt="Match3" width="300px">
+                        <img src="./img/03-match3.svg" class="projects-item-img" alt="Match3">
                         <p class="projects-item-description">Match 3</p>
                     </a>
                     <a href="#" class="projects-item" target="_blanc">
-                        <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/04-controlador-gastos.svg" class="projects-item-img" alt="Control de Gastos" width="300px">
+                        <img src="./img/04-controlador-gastos.svg" class="projects-item-img" alt="Control de Gastos">
                         <p class="projects-item-description">Controlador de Gastos</p>
                     </a>
                     <a href="#" class="projects-item" target="_blanc">
-                        <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/05-administrador-reuniones.svg" class="projects-item-img" alt="Adminstrador Reuniones" width="300px">
+                        <img src="./img/05-administrador-reuniones.svg" class="projects-item-img" alt="Adminstrador Reuniones">
                         <p class="projects-item-description">Administrador de Reuniones</p>
                     </a>
                     <a href="#" class="projects-item" target="_blanc">
-                        <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/06-todo-app.svg" class="projects-item-img" alt="App" width="300px">
+                        <img src="./img/06-todo-app.svg" class="projects-item-img" alt="App">
                         <p class="projects-item-description">Todo App</p>
                     </a>
-                    <a href="#" class="projects-item" target="_blanc">
-                        <!-- AJUSTE EL TAMAÑO DE IMAGEN, CAMBIAR LUEGO CON CSS -->
-                        <img src="./img/07-buscador-peliculas.svg"  class="projects-item-img" alt="Peliculas" width="300px">
+                    <a href="#" class="projects-item " target="_blanc">
+                        <img src="./img/07-buscador-peliculas.svg"  class="projects-item-img" alt="Peliculas">
                         <p class="projects-item-description">Buscador de Películas</p>
                     </a>
                 </div>
@@ -164,52 +159,52 @@
             <article class="contact-container">
                 <div class="contact-column">
                     <h2 class="section-title">Contáctame</h2>
-                    <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aliquam reprehenderit id eligendi ad possimus?</p>
+                    <p class="section-description contact-description">Lorem ipsum dolor sit amet consectetur adipi sicing elit. Eius, aliquam reprehenderit id eligendi ad possimus? consectetur adipisicing elit. Eius, aliquam reprehenderit id eligendi ad possimus?</p>
                     <ul class="contact-social-list">
                         <li class="contact-social-item">
-                            <a href="https://twitter.com/MariCaroJ" class="contact-social-link" target="_blanc">
+                            <a class="contact-social-link" href="https://twitter.com/MariCaroJ" target="_blanc">
                                 <i class="fab fa-twitter contact-social-icon"></i> @MariCaroJ
                             </a>
                         </li>
                         <li class="contact-social-item">
-                            <a href="https://github.com/maricaroj" class="contact-social-link" target="_blanc">
+                            <a class="contact-social-link" href="https://github.com/maricaroj" target="_blanc">
                                 <i class="fab fa-github-alt contact-social-icon"></i> maricaroj
                             </a>
                         </li>
                         <li class="contact-social-item">
-                            <a href="https://www.linkedin.com/in/marianajuarezolivares/" class="contact-social-link" target="_blanc">
+                            <a class="contact-social-link" href="https://www.linkedin.com/in/marianajuarezolivares/" target="_blanc">
                                 <i class="fab fa-linkedin-in contact-social-icon"></i> Mariana Juárez
                             </a>
                         </li>
                         <li class="contact-social-item">
-                            <!-- FALTA COLOCAR EL LINK PARA EL MAIL -->
-                            <a href="#" class="contact-social-link" target="_blanc">
+                            <a class="contact-social-link" href="#" target="_blanc">
                                 <i class="fas fa-envelope contact-social-icon"></i> juarezmariana18@gmail.com
                             </a>
                         </li>
                     </ul>
                 </div>
+                <!-- *** Columna dos -->
                 <div class="contact-column">
                     <h2 class="section-title">Escríbeme</h2>
-                    <div class="write-form-name">
-                        <div class="write-form">
+                    <div class="write-form">
+                        <div class="write-form-name first-name">
                             <p class="write-form-title">Nombre*</p>
                             <p class="write-form-text">p.ej.: Mariana</p>
                         </div>
-                        <div class="write-form">
+                        <div class="write-form-name">
                             <p class="write-form-title">Apellido*</p>
                             <p class="write-form-text">p.ej.: Juárez</p>
                         </div>
                     </div>
                     <div class="write-form-email">
                         <p class="write-form-title">Email*</p>
-                        <p class="write-form-text">p.ej.: email@email.com</p>
+                        <p class="write-form-text form-text-email">p.ej.: email@email.com</p>
                     </div>
                     <div class="write-form-comment">
                         <p class="write-form-title">Mensaje*</p>
-                        <p class="write-form-text">Escriba un mensaje aquí.</p>
+                        <p class="write-form-text form-text-message">Escriba un mensaje aquí.</p>
                     </div>
-                    <button class="write-form-buttom">Enviar</button>
+                    <button class="write-form-button">Enviar</button>
                 </div>
             </article>
         </section>
@@ -218,47 +213,47 @@
     <!-- *** TERMINA MAIN *** -->
 
     <!-- *** COMIENZA FOOTER *** -->
-    <footer>
+    <footer class="footer-content">
         <nav class="footer-nav">
             <ul class="footer-nav-menu">
                 <li class="footer-nav-item">
-                    <a href="#aboutme" class="footer-nav-link">HOLA</a>
+                    <a class="footer-nav-link" href="#aboutme" >HOLA</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a href="#knowledge" class="footer-nav-link">CONOCIMIENTOS</a>
+                    <a class="footer-nav-link" href="#knowledge" >CONOCIMIENTOS</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a href="#projects" class="footer-nav-link">PROYECTOS</a>
+                    <a class="footer-nav-link" href="#projects">PROYECTOS</a>
                 </li>
                 <li class="footer-nav-item">
-                    <a href="#contact" class="footer-nav-link">CONTACTO</a>
+                    <a class="footer-nav-link" href="#contact">CONTACTO</a>
                 </li>
             </ul>
         </nav>
-        <ul class="footer-social-link">
+        <ul class="footer-social-menu">
             <li class="footer-social-item">
-                <a href="https://twitter.com/MariCaroJ" class="footer-social-link" target="_blanc">
+                <a class="footer-social-link" href="https://twitter.com/MariCaroJ" target="_blanc">
                     <i class="fab fa-twitter footer-social-icon"></i>
                 </a>
             </li>
             <li class="footer-social-item">
-                <a href="https://github.com/maricaroj" class="footer-social-link" target="_blanc">
+                <a class="footer-social-link" href="https://github.com/maricaroj" target="_blanc">
                     <i class="fab fa-github-alt footer-social-icon"></i>
                 </a>
             </li>
             <li class="footer-social-item">
-                <a href="https://www.linkedin.com/in/marianajuarezolivares/" class="footer-social-link" target="_blanc">
+                <a class="footer-social-link" href="https://www.linkedin.com/in/marianajuarezolivares/" target="_blanc">
                     <i class="fab fa-linkedin-in footer-social-icon"></i>
                 </a>
             </li>
             <li class="footer-social-item">
                 <!-- FALTA COLOCAR EL LINK PARA EL MAIL -->
-                <a href="#" class="contact-social-link" target="_blanc">
+                <a class="footer-social-link" href="#" target="_blanc">
                     <i class="fas fa-envelope footer-social-icon"></i>
                 </a>
             </li>
         </ul>
-        Hecho con ❤️ por Mariana Juárez
+        <p class="footer-text">Hecho con <i class="fas fa-heart footer-heart"></i> por Mariana Juárez</p>
     </footer>
     <!-- *** TERMINA FOOTER *** -->
 </body>
