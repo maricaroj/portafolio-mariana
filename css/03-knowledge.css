@@ -6,24 +6,14 @@
     align-items: center;
     justify-content: center;
 }
-.knowledge-container{
+.knowledge-container, .knowledge-text, .knowledge-grid, .knowledge-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.knowledge-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .knowledge-grid{
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .knowledge-item-row{
     width: 800px;
@@ -38,10 +28,6 @@
     border: 1px solid rgba(179, 177, 177, 0.637);
     margin: 10px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 .knowledge-item:hover{
     border-radius: 10px;

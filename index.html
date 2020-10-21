@@ -184,27 +184,31 @@
                     </ul>
                 </div>
                 <!-- *** Columna dos -->
-                <div class="contact-column">
+                <div class="contact-column contact-column-two">
                     <h2 class="section-title">Escríbeme</h2>
                     <div class="write-form">
-                        <div class="write-form-name first-name">
-                            <p class="write-form-title">Nombre*</p>
-                            <p class="write-form-text">p.ej.: Mariana</p>
-                        </div>
-                        <div class="write-form-name">
-                            <p class="write-form-title">Apellido*</p>
-                            <p class="write-form-text">p.ej.: Juárez</p>
-                        </div>
+                        <form action="" method="POST">
+                            <div class="write-form-name">
+                                <div class="form-name-box">
+                                    <label class="form-label" for="user-name">Nombre*</label>
+                                    <input type="text" name="userName" id="user-name" placeholder="p.ej: Mariana" required>
+                                </div>
+                                <div class="form-name-box">
+                                    <label class="form-label" for="user-lastname">Apellido*</label>
+                                    <input type="text" name="userLastname" id="user-lastname" placeholder="p.ej: Juárez" required>
+                                </div>
+                            </div>
+                            <div class="form-name-box">
+                                <label class="form-label" for="user-email">Email*</label>
+                                <input type="email" name="userEmail" id="user-email" placeholder="p.ej: email@email.com" required>
+                            </div>
+                            <div class="form-name-box">
+                                <label class="form-label" for="user-message">Mensaje*</label>
+                                <textarea name="userMessage" id="user-message" cols="45" rows="9" placeholder="Escriba un mensaje aquí" required></textarea>
+                            </div>
+                            <button class="write-form-button" type="submit">Enviar</button>
+                        </form>
                     </div>
-                    <div class="write-form-email">
-                        <p class="write-form-title">Email*</p>
-                        <p class="write-form-text form-text-email">p.ej.: email@email.com</p>
-                    </div>
-                    <div class="write-form-comment">
-                        <p class="write-form-title">Mensaje*</p>
-                        <p class="write-form-text form-text-message">Escriba un mensaje aquí.</p>
-                    </div>
-                    <button class="write-form-button">Enviar</button>
                 </div>
             </article>
         </section>
