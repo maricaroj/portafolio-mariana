@@ -29,9 +29,10 @@
 }
 .contact-description{
     text-align: left;
+    font-size: 1.3rem;
 }
 .contact-social-list{
-    margin: 0px 0 20px 30px;
+    margin: 0px 0px 22px 30px;
     font-size: 1.2rem;
 }
 .contact-social-item{
