@@ -45,11 +45,11 @@
     border-radius: 100px;
     padding: 10px 10px;
 }
-.contact-social-link:hover{
-    color: rgb(245, 180, 198);
-}
-.contact-social-icon:hover{
+.contact-social-item:hover .contact-social-icon{
     background-color: rgb(245, 180, 198);
+}
+.contact-social-item:hover .contact-social-link{
+    color: rgb(245, 180, 198);
 }
 .write-form{
     width: 100%;
@@ -79,6 +79,8 @@
     color: rgb(128, 128, 128);
     border-radius: 20px;
     outline: none;
+    resize: none;
+    overflow: hidden;
 }
 input:hover, textarea:hover{
     box-shadow: 0 0 5px 0 rgb(193, 76, 169);
