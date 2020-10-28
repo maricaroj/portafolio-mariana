@@ -38,13 +38,16 @@
                 </li>
             </ul>
         </nav>
+        <ul class="header-nav-condensed-menu">
+            <li class="condensed-menu-icon"><a href="#"><i class="fas fa-bars condensed-menu-icon"></i></a></li>
+        </ul>
     </header>  
     <!-- *** TERMINA HEADER *** -->
 
     <!-- *** COMIENZA MAIN *** -->
     <main>
         <!-- *** COMIENZA SECCION ABOUTME *** -->
-        <section class="aboutme" id="aboutme">
+        <section id="aboutme" class="aboutme">
             <article class="aboutme-container">
                 <div class="aboutme-info">
                     <p class="aboutme-greeting">¡Hola! Soy</p>
@@ -52,15 +55,16 @@
                     <p class="aboutme-text">Desarrolladora, Abogada, Respostera</p>
                     <a href="#projects"><button class="aboutme-button">LO QUE HAGO</button></a>
                 </div>
-                <figure class="aboutme-info">
+                <figure class="aboutme-info aboutme-info-two">
                     <img src="./img/00-aboutme.svg" class="aboutme-img" alt="Imagen Aboutme">
                 </figure>
+                <a href="#projects"><button class="aboutme-button button-two">LO QUE HAGO</button></a>
             </article>
         </section>
         <!-- *** TERMINA SECCION ABOUTME *** -->
 
         <!-- *** COMIENZA SECCION KNOWLEDGE *** -->
-        <section class="knowledge" id="knowledge">
+        <section id="knowledge" class="knowledge">
             <article class="knowledge-container">
                 <div class="knowledge-text">
                     <h2 class="section-title">Mis Conocimientos</h2>
@@ -114,40 +118,54 @@
         <!-- *** TERMINA SECCION QUOTE *** -->
 
         <!-- *** COMIENZA SECCION PROJECTS *** -->
-        <section class="projects" id="projects" >
+        <section id="projects" class="projects">
             <article class="projects-contanier">
                 <div class="projects-text">
                     <h2 class="section-title">Mis Proyectos</h2>
                     <p class="section-description">A continuación presento los proyectos que he realizado durante mi formación como desarrolladora web Front-End.</p>
                 </div>
                 <div class="projects-grid">
-                    <a href="#" class="projects-item" target="_blanc">
-                        <img src="./img/01-portfolio.png" class="projects-item-img" alt="Portafolio">
-                        <p class="projects-item-description">Portfolio</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/01-portfolio.png" class="projects-item-img" alt="Portafolio">
+                            <figcaption class="projects-item-description">Portfolio</p>
+                        </figure>
                     </a>
-                    <a href="#" class="projects-item" target="_blanc">
-                        <img src="./img/02-generador-memes.svg" class="projects-item-img" alt="Generador de Memes">
-                        <p class="projects-item-description">Generador de Memes</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/02-generador-memes.svg" class="projects-item-img" alt="Generador de Memes">
+                            <figcaption class="projects-item-description">Generador de Memes</p>
+                        </figure>
                     </a>
-                    <a href="#" class="projects-item" target="_blanc">
-                        <img src="./img/03-match3.svg" class="projects-item-img" alt="Match3">
-                        <p class="projects-item-description">Match 3</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/03-match3.svg" class="projects-item-img" alt="Match3">
+                            <figcaption class="projects-item-description">Match 3</p>
+                        </figure>
                     </a>
-                    <a href="#" class="projects-item" target="_blanc">
-                        <img src="./img/04-controlador-gastos.svg" class="projects-item-img" alt="Control de Gastos">
-                        <p class="projects-item-description">Controlador de Gastos</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/04-controlador-gastos.svg" class="projects-item-img" alt="Control de Gastos">
+                            <figcaption class="projects-item-description">Controlador de Gastos</p>
+                        </figure>
                     </a>
-                    <a href="#" class="projects-item" target="_blanc">
-                        <img src="./img/05-administrador-reuniones.svg" class="projects-item-img" alt="Adminstrador Reuniones">
-                        <p class="projects-item-description">Administrador de Reuniones</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/05-administrador-reuniones.svg" class="projects-item-img" alt="Adminstrador Reuniones">
+                            <figcaption class="projects-item-description">Administrador de Reuniones</p>
+                        </figure>
                     </a>
-                    <a href="#" class="projects-item" target="_blanc">
-                        <img src="./img/06-todo-app.svg" class="projects-item-img" alt="App">
-                        <p class="projects-item-description">Todo App</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/06-todo-app.svg" class="projects-item-img" alt="App">
+                            <figcaption class="projects-item-description">Todo App</p>
+                        </figure>
                     </a>
-                    <a href="#" class="projects-item " target="_blanc">
-                        <img src="./img/07-buscador-peliculas.svg"  class="projects-item-img" alt="Peliculas">
-                        <p class="projects-item-description">Buscador de Películas</p>
+                    <a href="#" target="_blanc">
+                        <figure class="projects-item">
+                            <img src="./img/07-buscador-peliculas.svg"  class="projects-item-img" alt="Peliculas">
+                            <figcaption class="projects-item-description">Buscador de Películas</p>
+                        </figure>
                     </a>
                 </div>
             </article>
@@ -155,11 +173,11 @@
         <!-- *** TERMINA SECCION PROJECTS *** -->
 
         <!-- *** COMIENZA SECCION CONTACT *** -->
-        <section class="contact" id="contact">
+        <section id="contact" class="contact">
             <article class="contact-container">
                 <div class="contact-column">
                     <h2 class="section-title">Contáctame</h2>
-                    <p class="section-description contact-description">¿Tienes alguna idea que quieras desarrollar o quieres dejarme algún mensaje y/o comentario?<br>¡Escríbeme unas líneas!</p>
+                    <p class="contact-description">¿Tienes alguna idea que quieras desarrollar o quieres dejarme algún mensaje y/o comentario?<br>¡Escríbeme unas líneas!</p>
                     <ul class="contact-social-list">
                         <li class="contact-social-item">
                             <a class="contact-social-link" href="https://twitter.com/MariCaroJ" target="_blanc">

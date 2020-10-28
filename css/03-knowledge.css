@@ -1,12 +1,13 @@
 .knowledge{
     width: 100%;
     height: 110vh;
-    background-color: rgb(246, 247, 251);
+    background-color: rgb(255,255,255);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .knowledge-container, .knowledge-text, .knowledge-grid, .knowledge-item{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,7 +17,7 @@
     margin: 10px;
 }
 .knowledge-item-row{
-    width: 800px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,13 +26,13 @@
     width: 260px;
     height: 230px;
     background-color: rgb(255,255,255);
-    border: 1px solid rgba(179, 177, 177, 0.637);
+    box-shadow: 1px 1px 4px rgba(193, 76, 170, 0.459);
     margin: 10px;
     border-radius: 10px;
 }
 .knowledge-item:hover{
     border-radius: 10px;
-    border: 1px solid rgb(193, 76, 169);
+    border: 3px solid rgb(193, 76, 169);
     color: rgb(193, 76, 169);
 }
 .knowledge-icon{

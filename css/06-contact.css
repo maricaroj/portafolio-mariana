@@ -1,17 +1,17 @@
 .contact{
     width: 100%;
     height: 110vh;
-    background-color: rgb(246, 247, 251);
+    background-color: rgb(255, 230, 237);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .contact-container{
-    width: 1100px;
+    width: 75%;
     height: 600px;
     padding: 100px;
     background-color: rgb(255, 255, 255);
-    border: 1px solid rgba(179, 177, 177, 0.637);
+    box-shadow: 1px 1px 2px rgba(193, 76, 170, 0.459);
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -29,7 +29,7 @@
 }
 .contact-description{
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .contact-social-list{
     margin: 0px 0px 22px 30px;
@@ -51,6 +51,8 @@
 .contact-social-item:hover .contact-social-link{
     color: rgb(245, 180, 198);
 }
+
+/* Columna 2 */
 .write-form{
     width: 100%;
     display: flex;
@@ -70,7 +72,7 @@
     margin-bottom: 10px;
     font-weight: 600;
 }
-#user-name, #user-lastname, #user-email, #user-message{
+input, textarea{
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
@@ -93,6 +95,7 @@ input:valid, textarea:valid{
     font-size: 1.1rem;
     background-color: rgb(110, 64, 160);
     border: none;
+    outline: none;
     padding: 15px;
     color: rgb(255, 255, 255);
     border-radius: 25px;

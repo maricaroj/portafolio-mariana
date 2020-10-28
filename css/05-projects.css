@@ -42,7 +42,7 @@
 }
 .projects-item:hover{
     border-radius: 10px;
-    border: 1px solid rgb(54, 64, 163);
+    border: 3px solid rgb(54, 64, 163);
     color: rgb(54, 64, 163);
 }
 .projects-item-img{
