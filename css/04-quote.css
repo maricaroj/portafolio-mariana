@@ -12,19 +12,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 0 6.25rem;
 }
 .quote-icon{
-    font-size: 80px;
-    margin-bottom: 20px;
+    font-size: 5rem;
+    margin-bottom: 1.25rem;
 }
 .quote-text{
-    width: 900px;
     font-size: 2.2rem;
     text-align: center;
-    margin-bottom: 20px ;
+    margin-bottom: 1.25rem;
 }
 .quote-autor{
-    margin: 0;
     font-size: 2.3rem;
     font-family: 'Mansalva', cursive;
     color: rgb(245, 180, 198);
@@ -38,17 +38,35 @@
 }
   /* Visible texto */
   blockquote:hover > .quote-translation{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     transition: all .5s;
-    width: 900px;
-    height: 60px;
-    /* padding: 15px; */
+    height: 8vh;
+    padding: .93rem;
     background-color: rgb(110, 64, 160);
     color: rgb(255,255,255);
-    font-size: 20px;
-    text-align: center;
-    border-radius: 10px;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.56rem;
+    border-radius: .62rem;
 }
 /* TERMINA TEXTO FLOTANTE AL PASAR EL CURSOR POR BLOCKQUOTE */
+@media(min-width: 300px) and (max-width: 900px){
+    .quote-container{
+        padding: 0 2rem;
+    }
+    .quote-icon{
+        font-size: 2.5rem;
+        /* margin-bottom: 20px; */
+    }
+    .quote-text{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .quote-autor{
+        font-size: 1.8rem;
+    }
+    blockquote:hover > .quote-translation{
+       display: none;
+    }
+}

@@ -5,7 +5,6 @@
     background-color: rgb(193, 76, 169);
     box-shadow: 0 0 1.25rem 0 rgba(46, 46, 46, 0.384);
     position: fixed;
-    transition: 0.5s;
 }
 .header-nav{
     display: flex;
@@ -41,19 +40,18 @@
     background-color:rgb(193, 76, 169);
     color: rgb(245, 180, 198);
 }
-@media(max-width: 1440px){
-    .header-nav{
-        justify-content: center;
-    }
-}
-@media(max-width: 900px){
+/* Coienzan Media queries */
+
+@media(min-width: 300px) and (max-width: 900px){
     .header-content{
-        width: 10%;
-        height: 5vh;
-        margin-left: 90%;
-        border-radius: 10px 0 0 10px;
+        width: 9%;
+        height: 6vh;
+        border-radius: 0 10px 10px 0;
+        box-shadow: none;
         display: flex;
         position: fixed;
+        background-color: transparent;
+        padding: 1rem 1.5rem;
     }
     .header-nav{
         display: none;
@@ -65,7 +63,12 @@
         justify-content: center;
     }
     .condensed-menu-icon{
-        color: rgb(245, 180, 198);
-        font-size: 1.2rem;
+        color: rgb(193, 76, 170);
+        font-size: 1rem;
+    }
+}
+@media(max-width: 1440px){
+    .header-nav{
+        justify-content: center;
     }
 }
