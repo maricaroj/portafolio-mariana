@@ -107,7 +107,57 @@ input:valid, textarea:valid{
     border:  none;
     cursor: pointer;
 }
-@media(min-width: 300px) and (max-width: 900px){
+
+/* MEDIA QUERIES */
+
+@media(max-width:679px){
+    .contact-container{
+        width: 90%;
+        height: 90vh;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contact-column, .contact-column-two{
+        width: 90%;
+        margin-left: 0;
+    }
+    .contact-social-item{
+        margin: 0.1rem;
+    }
+    .contact-description{
+        font-size: .9rem;
+    }
+    .contact-social-list{
+        font-size: .7rem;
+        margin: 0.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-social-icon{
+        font-size: .8rem;
+        padding: .3rem;
+    }
+    .write-form-name{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-label{
+        font-size: .8rem;
+        margin-top: .2rem;
+    }
+    input{
+        padding: .5rem;
+        margin: .1rem;
+    }
+    .write-form-button{
+        margin: .3rem 6rem;
+        font-size: .9rem;
+    }
+}
+
+@media(min-width: 680px) and (max-width: 900px){
     .contact-container{
         height: 85vh;
         flex-direction: column;
@@ -116,7 +166,6 @@ input:valid, textarea:valid{
     .contact-column, .contact-column-two{
         width: 100%;
         margin-left: 0;
-
     }
     .contact-social-item{
         margin: 0.2rem .5rem;

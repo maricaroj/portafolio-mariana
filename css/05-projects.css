@@ -48,7 +48,35 @@
     margin-top: 1.87rem;
     text-align: center;
 }
-@media(min-width: 300px) and (max-width: 900px){
+@media(max-width:679px){
+    .projects{
+        height: 110vh;
+        padding: 1rem;
+    }
+    .projects-grid{
+        padding: 0;
+    }
+    .projects-item{
+        width: 30vw;
+        height: 17vh;
+        padding-bottom: .2rem;
+    }
+    .projects-item-img{
+        max-width: 50%;
+    }
+    .portfolio-01{
+        display: none;
+    }
+    .portfolio-02{
+        display: flex;
+        padding: 1.25rem 0;
+    }
+    .projects-item-description{
+        margin-top: .2rem;
+        font-size: .8rem;
+    }
+}
+@media(min-width: 680px) and (max-width: 900px){
     .projects{
         height: 110vh;
         padding: 1.9rem;

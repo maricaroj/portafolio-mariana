@@ -51,17 +51,35 @@
     border-radius: .62rem;
 }
 /* TERMINA TEXTO FLOTANTE AL PASAR EL CURSOR POR BLOCKQUOTE */
-@media(min-width: 300px) and (max-width: 900px){
+
+/* COMIENZAN MEDIA QUERIES */
+
+@media(max-width:679px){
+    .quote-container{
+        padding: 0 2rem;
+    }
+    .quote-icon{
+        font-size: 2rem;
+    }
+    .quote-text{
+        font-size: 1rem;
+    }
+    .quote-autor{
+        font-size: 1.5rem;
+    }
+    blockquote:hover > .quote-translation{
+        display: none;
+     }
+}
+@media(min-width: 680px) and (max-width: 900px){
     .quote-container{
         padding: 0 2rem;
     }
     .quote-icon{
         font-size: 2.5rem;
-        /* margin-bottom: 20px; */
     }
     .quote-text{
         font-size: 1.6rem;
-        text-align: center;
     }
     .quote-autor{
         font-size: 1.8rem;

@@ -40,9 +40,9 @@
     background-color:rgb(193, 76, 169);
     color: rgb(245, 180, 198);
 }
-/* Coienzan Media queries */
+/* COMIENZAN MEDIA QUERIES */
 
-@media(min-width: 300px) and (max-width: 900px){
+@media(max-width: 900px){
     .header-content{
         width: 9%;
         height: 6vh;

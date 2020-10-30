@@ -43,7 +43,33 @@
     font-weight: 600;
     margin-top: 1.25rem;
 }
-@media(min-width: 300px) and (max-width: 900px){
+
+/* COMIENZAN MEDIA QUERIES */
+
+@media(max-width:679px){
+    .knowledge{
+        height: 100vh;
+    }
+    .knowledge-container{
+        padding: 20px;
+    }
+    .knowledge-item-row{
+        width: 100%;
+        align-items: center;
+    }
+    .knowledge-item{
+        width: 25%;
+        height: 13vh;
+    }
+    .knowledge-icon{
+        font-size: 2em;
+    }
+    .icon-title{
+        font-size: .8em;
+        margin-top: 0.62rem;
+    }
+}
+@media(min-width: 680px) and (max-width: 900px){
     .knowledge{
         height: 100vh;
     }

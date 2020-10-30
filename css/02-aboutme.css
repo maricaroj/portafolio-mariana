@@ -60,7 +60,10 @@
 .aboutme-img{
     max-width: 97%;
 }
-@media(min-width: 300px) and (max-width: 900px){
+
+/* COMIENZAN MEDIA QUERIES */
+
+@media(max-width: 900px){
     .aboutme-container{
         width: 100%;
         flex-direction: column;
@@ -75,7 +78,6 @@
     .aboutme-info{
         width: 85%;
     }
-
     .aboutme-button{
         display: none;
     }
