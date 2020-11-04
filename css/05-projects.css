@@ -1,4 +1,6 @@
-.projects, .projects-container, .projects-text{
+.projects, 
+.projects-container, 
+.projects-text{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,15 +52,15 @@
 }
 @media(max-width:679px){
     .projects{
-        height: 110vh;
+        height: 150vh;
         padding: 1rem;
     }
     .projects-grid{
         padding: 0;
     }
     .projects-item{
-        width: 30vw;
-        height: 17vh;
+        width: 34vw;
+        height: 20vh;
         padding-bottom: .2rem;
     }
     .projects-item-img{
@@ -78,7 +80,7 @@
 }
 @media(min-width: 680px) and (max-width: 900px){
     .projects{
-        height: 110vh;
+        height: 120vh;
         padding: 1.9rem;
     }
     .projects-item{

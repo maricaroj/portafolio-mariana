@@ -3,14 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --fontColor: rgb(0, 0, 0);
+    --darkPink: rgb(193, 76, 169);
+    --lightPink: rgb(248, 154, 181);
+    --darkBlue: rgb(54, 64, 163);
+    --purple: rgb(110, 64, 160);
+}
 body{
     font-family: 'montserrat', sans-serif;
-    color: rgb(0, 0, 0);
+    color: var(--fontColor);
     width: 100%;
 }
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0)
+    color: var(--fontColor);
 }
 ul{
     list-style: none;
@@ -45,6 +52,3 @@ ul{
         width: 100%;
     }
 }
-/* 
-paleta de colores
-#f89ab5, #f650a6, #c14ca9, #6e40a0, #3640a3 */

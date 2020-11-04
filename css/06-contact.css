@@ -73,9 +73,10 @@
     margin-bottom: .62rem;
     font-weight: 600;
 }
-input, textarea{
+input, 
+textarea{
     width: 100%;
-    padding: .62rem;
+    padding: .62rem .93rem;
     margin-bottom: .33rem;
     background-color: rgb(240, 241, 245);
     border: none;
@@ -85,10 +86,13 @@ input, textarea{
     resize: none;
     overflow: hidden;
 }
-input:hover, textarea:hover{
+
+input:focus, 
+textarea:focus{
     box-shadow: 0 0 5px 0 rgb(193, 76, 169);
 }
-input:valid, textarea:valid{
+input:valid, 
+textarea:valid{
     box-shadow: 0 0 5px 0 rgb(82, 240, 54);
 }
 .write-form-button{
@@ -110,14 +114,54 @@ input:valid, textarea:valid{
 
 /* MEDIA QUERIES */
 
-@media(max-width:679px){
+@media(min-width:320px) and (max-width:580px){
     .contact-container{
         width: 90%;
-        height: 90vh;
+        height: 100vh;
         flex-direction: column;
         padding: 10px;
     }
-    .contact-column, .contact-column-two{
+    .contact-column, 
+    .contact-column-two{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contact-social-item{
+        margin: 0.1rem;
+    }
+    .contact-description{
+        font-size: .9rem;
+    }
+    .contact .contact-social-list, .form-title{
+        display: none;
+    }
+    .write-form-name{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .form-label{
+        font-size: .8rem;
+        margin-top: .2rem;
+    }
+    input{
+        padding: .5rem;
+        margin: .1rem;
+    }
+    .write-form-button{
+        margin: .3rem 6rem;
+        font-size: .9rem;
+        padding: .3rem;
+    }
+}
+@media(max-width:679px){
+    .contact-container{
+        width: 90%;
+        height: 100vh;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .contact-column, 
+    .contact-column-two{
         width: 90%;
         margin-left: 0;
     }
@@ -159,11 +203,12 @@ input:valid, textarea:valid{
 
 @media(min-width: 680px) and (max-width: 900px){
     .contact-container{
-        height: 85vh;
+        height: 90vh;
         flex-direction: column;
         padding: 50px;
     }
-    .contact-column, .contact-column-two{
+    .contact-column, 
+    .contact-column-two{
         width: 100%;
         margin-left: 0;
     }

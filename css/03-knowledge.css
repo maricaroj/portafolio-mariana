@@ -6,7 +6,10 @@
     align-items: center;
     justify-content: center;
 }
-.knowledge-container, .knowledge-text, .knowledge-grid, .knowledge-item{
+.knowledge-container, 
+.knowledge-text, 
+.knowledge-grid, 
+.knowledge-item{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -65,7 +68,7 @@
         font-size: 2em;
     }
     .icon-title{
-        font-size: .8em;
+        font-size: .65em;
         margin-top: 0.62rem;
     }
 }
