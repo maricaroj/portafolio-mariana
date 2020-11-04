@@ -116,8 +116,8 @@ textarea:valid{
 
 @media(min-width:320px) and (max-width:580px){
     .contact-container{
-        width: 90%;
-        height: 100vh;
+        width: 18.75rem;
+        height: 35.5rem;
         flex-direction: column;
         padding: 10px;
     }
@@ -155,8 +155,8 @@ textarea:valid{
 }
 @media(max-width:679px){
     .contact-container{
-        width: 90%;
-        height: 100vh;
+        width: 18.75rem;
+        height: 35.5rem;
         flex-direction: column;
         padding: 10px;
     }
