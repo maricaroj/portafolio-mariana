@@ -85,3 +85,18 @@
         display: flex;
     }
 }
+
+@media(min-width:901px) and (max-width: 1440px){
+    .aboutme-container{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .aboutme-button{
+        display: none;
+    }
+    .button-two{
+        display: flex;
+        font-size: 1.5rem;
+    }
+}

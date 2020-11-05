@@ -36,7 +36,7 @@
     background-color:rgb(245, 180, 198);
     border: 1px solid rgb(245, 180, 198);
     border-radius: 50%;
-    padding: .31rem .62rem;
+    padding: .34rem .62rem;
     font-size: 2rem;
     margin: 1.25rem .93rem;
 }
@@ -59,7 +59,7 @@
     .footer-nav-link, 
     .footer-text, 
     .footer-heart{
-        font-size: .6rem;
+        font-size: .62rem;
     }
     .footer-nav-item{
         padding: .62rem;
@@ -69,13 +69,11 @@
     }
 }
 
-@media(min-width: 680px) and (max-width: 900px){
+@media(min-width: 680px) and (max-width: 1440px){
     .footer-nav-link, 
-    .footer-text, 
+    .footer-text,
+    .footer-social-link, 
     .footer-heart{
-        font-size: .9rem;
-    }
-    .footer-social-link{
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 }

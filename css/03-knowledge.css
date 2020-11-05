@@ -49,20 +49,21 @@
 
 /* COMIENZAN MEDIA QUERIES */
 
-@media(max-width:679px){
+@media(min-width:320px) and (max-width:679px){
     .knowledge{
         height: 100vh;
+        min-height: 35.5rem;
     }
     .knowledge-container{
-        padding: 20px;
+        padding: 1.25rem;
     }
     .knowledge-item-row{
         width: 100%;
         align-items: center;
     }
     .knowledge-item{
-        width: 25%;
-        height: 13vh;
+        width: 6.875rem;
+        height: 5rem;
     }
     .knowledge-icon{
         font-size: 2em;
@@ -72,7 +73,7 @@
         margin-top: 0.62rem;
     }
 }
-@media(min-width: 680px) and (max-width: 900px){
+@media(min-width: 680px) and (max-width: 1440px){
     .knowledge{
         height: 100vh;
     }
@@ -81,14 +82,14 @@
         align-items: center;
     }
     .knowledge-item{
-        width: 25%;
-        height: 15vh;
+        width: 12.5rem;
+        height: 12.5rem;
     }
     .knowledge-icon{
-        font-size: 2.2em;
+        font-size: 2.5rem;
     }
     .icon-title{
-        font-size: .8em;
+        font-size: 1.3rem;
         margin-top: 0.62rem;
     }
 }

@@ -86,7 +86,6 @@ textarea{
     resize: none;
     overflow: hidden;
 }
-
 input:focus, 
 textarea:focus{
     box-shadow: 0 0 5px 0 rgb(193, 76, 169);
@@ -112,14 +111,17 @@ textarea:valid{
     cursor: pointer;
 }
 
-/* MEDIA QUERIES */
+/* COMIENZAN MEDIA QUERIES */
 
-@media(min-width:320px) and (max-width:580px){
+@media(min-width:320px) and (max-width:679px){
+    .contact{
+        height: 50rem;
+    }
     .contact-container{
         width: 18.75rem;
-        height: 35.5rem;
+        height: 34.5rem;
         flex-direction: column;
-        padding: 10px;
+        padding: 0.7rem;
     }
     .contact-column, 
     .contact-column-two{
@@ -153,12 +155,11 @@ textarea:valid{
         padding: .3rem;
     }
 }
-@media(max-width:679px){
+@media(min-width:680px) and (max-width:1440px){
     .contact-container{
-        width: 18.75rem;
-        height: 35.5rem;
+        height: 50rem;
         flex-direction: column;
-        padding: 10px;
+        padding: 0.625rem;
     }
     .contact-column, 
     .contact-column-two{
@@ -183,6 +184,9 @@ textarea:valid{
         font-size: .8rem;
         padding: .3rem;
     }
+    .write-form{
+        justify-content: center;
+    }
     .write-form-name{
         flex-direction: column;
         align-items: flex-start;
@@ -197,49 +201,6 @@ textarea:valid{
     }
     .write-form-button{
         margin: .3rem 6rem;
-        font-size: .9rem;
-    }
-}
-
-@media(min-width: 680px) and (max-width: 900px){
-    .contact-container{
-        height: 90vh;
-        flex-direction: column;
-        padding: 50px;
-    }
-    .contact-column, 
-    .contact-column-two{
-        width: 100%;
-        margin-left: 0;
-    }
-    .contact-social-item{
-        margin: 0.2rem .5rem;
-    }
-    .contact-description{
-        font-size: .9rem;
-    }
-    .contact-social-list{
-        font-size: .7rem;
-        margin: 0.5rem;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-    }
-    .contact-social-icon{
-        font-size: 1rem;
-        padding: .3rem;
-    }
-    .form-label{
-        font-size: .8rem;
-        margin-top: .4rem;
-    }
-    input, textarea{
-        padding: .5rem;
-        margin: .1rem;
-    }
-    .write-form-button{
-        margin: .62rem 7.5rem;
         font-size: .9rem;
     }
 }

@@ -57,14 +57,6 @@
     .header-nav{
         display: none;
     }
-    .condensed-menu-icon{
-        color: rgb(193, 76, 170);
-        font-size: 1rem;
-        display: block;
-    }
-    .condensed-menu-icon:hover{
-        cursor: pointer;
-    }
     .header-nav-condensed-menu, 
     .header-nav-condensed-menu .fa-bars,
     .header-nav-condensed-menu .fa-times{
@@ -88,8 +80,17 @@
     .header-nav-condensed-menu{
         opacity: 0; 
     }
+    .condensed-menu-icon{
+        color: rgb(193, 76, 170);
+        font-size: 1rem;
+        display: block;
+    }
+    .condensed-menu-icon:hover{
+        cursor: pointer;
+    }
     .header-content input:checked ~ .header-nav{
         display: flex;
+        justify-content: center;
     }
     .header-nav-menu{
         flex-direction: column;
@@ -115,7 +116,11 @@
         display: none;
     }
 }
-@media(max-width: 1440px){
+@media(min-width:950px) and (max-width: 1440px){
+    .header-content{
+        width: 100%;
+        height: 5.3125rem;
+    }
     .header-nav{
         justify-content: center;
     }
