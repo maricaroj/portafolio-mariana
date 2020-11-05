@@ -14,7 +14,8 @@
     display: flex;
     width: 50%;
 }
-.header-nav-condensed-menu{
+.header-nav-condensed-menu,
+.condensed-menu-icon{
     display: none;
 }
 .header-nav-item{
@@ -48,26 +49,70 @@
         height: 6vh;
         border-radius: 0 10px 10px 0;
         box-shadow: none;
-        display: flex;
         position: fixed;
         background-color: transparent;
         padding: 1rem 1.5rem;
+        min-height: 3rem;
     }
     .header-nav{
         display: none;
     }
-    .header-nav-condensed-menu{
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
     .condensed-menu-icon{
         color: rgb(193, 76, 170);
         font-size: 1rem;
+        display: block;
     }
     .condensed-menu-icon:hover{
         cursor: pointer;
+    }
+    .header-nav-condensed-menu, 
+    .header-nav-condensed-menu .fa-bars,
+    .header-nav-condensed-menu .fa-times{
+        position: absolute;  
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        width: 3rem;
+        height: 3rem;
+        display: block;
+    }
+    .header-nav-condensed-menu .fa-bars,
+    .header-nav-condensed-menu .fa-times{
+        font-size: 3rem;
+        color: rgb(193, 76, 169);
+        pointer-events: none;
+        display: block;
+    }
+    .header-nav-condensed-menu{
+        opacity: 0; 
+    }
+    .header-content input:checked ~ .header-nav{
+        display: flex;
+    }
+    .header-nav-menu{
+        flex-direction: column;
+        background-color: rgba(193, 76, 170, 0.541);
+        width: 31.25rem;
+        height: 10.625rem;
+        margin-left: 9.375rem;
+    }
+    .header-nav-item{
+        margin: 0.5rem 0;
+        padding: 0.1875rem;
+    }
+    .header-nav-link{
+        padding: 0.1875rem;
+        border-radius: 3.1rem;
+        font-size: .9rem;
+        color: white;
+    }
+    .header-content input:checked ~ .fa-bars{
+        display: none;
+    }
+    .header-content input:not(:checked) ~ .fa-times{
+        display: none;
     }
 }
 @media(max-width: 1440px){
