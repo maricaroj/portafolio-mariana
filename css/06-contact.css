@@ -1,7 +1,7 @@
 .contact{
     width: 100%;
     height: 110vh;
-    background-color: rgb(255, 230, 237);
+    background-color: var(--backgroundPink);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,16 +41,16 @@
 }
 .contact-social-icon{
     font-size: 1.3rem;
-    color: rgb(110, 64, 160);
+    color: var(--purple);
     margin-right: .31rem;
     border-radius: 50%;
     padding: .62rem;
 }
 .contact-social-item:hover .contact-social-icon{
-    background-color: rgb(245, 180, 198);
+    background-color: var(--secondPink);
 }
 .contact-social-item:hover .contact-social-link{
-    color: rgb(245, 180, 198);
+    color: var(--secondPink);
 }
 
 /* Columna 2 */
@@ -88,7 +88,7 @@ textarea{
 }
 input:focus, 
 textarea:focus{
-    box-shadow: 0 0 5px 0 rgb(193, 76, 169);
+    box-shadow: 0 0 5px 0 var(--darkPink);
 }
 input:valid, 
 textarea:valid{
@@ -98,7 +98,7 @@ textarea:valid{
     width: 30%;
     font-size: 1.1rem;
     color: rgb(255, 255, 255);
-    background-color: rgb(110, 64, 160);
+    background-color: var(--purple);
     border: none;
     outline: none;
     margin-bottom: .39rem;
