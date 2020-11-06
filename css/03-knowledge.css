@@ -35,8 +35,8 @@
 }
 .knowledge-item:hover{
     border-radius: 0.62rem;
-    border: 3px solid rgb(193, 76, 169);
-    color: rgb(193, 76, 169);
+    border: 3px solid var(--darkPink);
+    color: var(--darkPink);
 }
 .knowledge-icon{
     font-size: 5em;

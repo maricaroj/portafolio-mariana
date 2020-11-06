@@ -1,7 +1,7 @@
 .quote{
     width: 100%;
     height: 55vh;
-    background-color: rgb(54, 64, 163);
+    background-color: var(--darkBlue);
     color: rgb(255,255,255);
     font-family: 'Nothing You Could Do', cursive;
     display: flex;
@@ -27,7 +27,7 @@
 .quote-autor{
     font-size: 2.3rem;
     font-family: 'Mansalva', cursive;
-    color: rgb(245, 180, 198);
+    color: var(--secondPink);
 }
 /* COMIENZA TEXTO FLOTANTE AL PASAR EL CURSOR POR BLOCKQUOTE */
 
@@ -45,7 +45,7 @@
     transition: all .5s;
     height: 8vh;
     padding: .93rem;
-    background-color: rgb(110, 64, 160);
+    background-color: var(--purple);
     color: rgb(255,255,255);
     font-size: 1.56rem;
     border-radius: .62rem;

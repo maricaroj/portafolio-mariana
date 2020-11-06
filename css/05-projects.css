@@ -35,8 +35,8 @@
 }
 .projects-item:hover{
     border-radius: 0.62rem;
-    border: 3px solid rgb(54, 64, 163);
-    color: rgb(54, 64, 163);
+    border: 3px solid var(--darkBlue);
+    color: var(--darkBlue);
 }
 .projects-item-img{
     width: 90%;

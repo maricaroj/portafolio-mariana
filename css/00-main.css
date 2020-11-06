@@ -7,6 +7,8 @@
     --fontColor: rgb(0, 0, 0);
     --darkPink: rgb(193, 76, 169);
     --lightPink: rgb(248, 154, 181);
+    --secondPink: rgb(245, 180, 198);
+    --backgroundPink: rgb(255, 230, 237);
     --darkBlue: rgb(54, 64, 163);
     --purple: rgb(110, 64, 160);
 }
@@ -15,11 +17,14 @@ body{
     color: var(--fontColor);
     width: 100%;
 }
-a{
+.link{
     text-decoration: none;
     color: var(--fontColor);
 }
-ul{
+.header-nav-menu,
+.contact-social-list,
+.footer-nav-menu,
+.footer-social-menu{
     list-style: none;
 }
 .section-title{
