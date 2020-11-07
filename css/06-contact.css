@@ -44,7 +44,7 @@
     color: var(--purple);
     margin-right: .31rem;
     border-radius: 50%;
-    padding: .62rem;
+    padding: 0.62rem;
 }
 .contact-social-item:hover .contact-social-icon{
     background-color: var(--secondPink);
