@@ -4,7 +4,7 @@ Proyecto realizado como evaluación final del primer modulo del curso desarrollo
 
 <br>
 
-### ¡¡Acá puedes verlo andar!! Haz click en este [enlace](https://maricaroj.github.io/portafolio-mariana/), tambien puedes verlo [aquí]()
+### ¡¡Acá puedes verlo andar!! Haz click en este [enlace](https://maricaroj.github.io/portafolio-mariana/), tambien puedes verlo [aquí](https://nervous-morse-f59ca4.netlify.app/)
 
 ### Para descargar el codigo en tus archivos, sigue estos pasos en tu terminal:🖥
 
@@ -32,5 +32,4 @@ Así debes verlo cuando lo abras 👁
 - Mi querido profesor [Jonh Parra](https://github.com/Jonhks) 🇲🇽
 
 ---
-Hecho con💜 por [Mariana Juárez](https://github.com/maricaroj)
-
+Hecho con💜  por [Mariana Juárez](https://github.com/maricaroj)
