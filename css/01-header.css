@@ -45,7 +45,7 @@
 }
 /* COMIENZAN MEDIA QUERIES */
 
-@media(min-width:320px) and (max-width: 700px){
+@media(min-width:320px) and (max-width: 800px){
     .header-content{
         width: 9%;
         height: 6vh;
@@ -78,7 +78,7 @@
     .condensed-menu-icon{
         color: var(--darkPink);
         font-size: 1rem;
-        display: block;
+        visibility: visible;
     }
     .condensed-menu-icon:hover{
         cursor: pointer;
