@@ -62,8 +62,8 @@
         align-items: center;
     }
     .knowledge-item{
-        width: 6.875rem;
-        height: 5rem;
+        width: 6rem;
+        height: 6rem;
     }
     .knowledge-icon{
         font-size: 2em;
