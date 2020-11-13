@@ -67,8 +67,12 @@
     .quote-autor{
         font-size: 1.5rem;
     }
+    .quote-translation{
+        display: none; 
+        transition: all .5s;
+    }
     blockquote:hover > .quote-translation{
-        display: none;
+        font-size: .56rem;
      }
 }
 @media(min-width: 680px) and (max-width: 900px){
