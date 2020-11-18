@@ -4,15 +4,16 @@ Proyecto realizado como evaluación final del primer modulo del curso desarrollo
 
 <br>
 
-### ¡¡Acá puedes verlo andar!! Haz click en este [enlace](https://maricaroj.github.io/portafolio-mariana/), tambien puedes verlo [aquí](https://nervous-morse-f59ca4.netlify.app/)
+### ¡¡Acá puedes verlo andar!! Haz click en este [enlace](https://maricaroj.github.io/portafolio-mariana/), también puedes verlo [aquí](https://nervous-morse-f59ca4.netlify.app/)
 
 ### Para descargar el codigo en tus archivos, sigue estos pasos en tu terminal:🖥
 
 - Ir al [repositorio](https://github.com/maricaroj/portafolio-mariana.git)
 - Haz click en botón Fork
--Hacer click al botón de code
+- Hacer click al botón de code
 - Copiar la url del repositorio
-- Abrir tu terminal ejecuta el comando ```git clone <url>```  
+- Abrir tu terminal ejecuta el comando
+ ```git clone <url>```  
 - Ubicarte en la carpeta del proyecto y abrirlo en tu IDE
 
 **Voilà esta clonado el código** 🧙🏼‍♀️

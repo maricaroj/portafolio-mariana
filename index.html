@@ -19,7 +19,6 @@
     <meta property="twitter:title" content="Mariana Juárez">
     <meta property="twitter:description" content="Portafolio de presentación proyectos realizados durante curso desarrollo FrontEnd">
     <meta property="twitter:image" content="https://github.com/maricaroj/portafolio-mariana/blob/master/img/01-portfolio.png?raw=true">
-
     <!-- LINKS -->
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -39,10 +38,10 @@
 </head>
 <body>
     <!-- *** COMIENZA HEADER *** -->
-    <header class="header-content">
+    <header class="header-content" aria-label="Barra de Navegacion">
         <input type="checkbox" class="header-nav-condensed-menu">
-            <i class="condensed-menu-icon fas fa-bars"></i>
-            <i class="condensed-menu-icon fas fa-times"></i>
+            <i class="condensed-menu-icon fas fa-bars" aria-hidden="true"></i>
+            <i class="condensed-menu-icon fas fa-times" aria-hidden="true"></i>
         <nav class="header-nav">
             <ul class="header-nav-menu">
                 <li class="header-nav-item">
@@ -71,7 +70,9 @@
                     <p class="aboutme-greeting">¡Hola! Soy</p>
                     <h1 class="aboutme-name">Mariana Juárez</h1>
                     <p class="aboutme-text">Desarrolladora, Abogada, Repostera</p>
-                    <a href="#projects" class="link"><button class="aboutme-button">LO QUE HAGO</button></a>
+                    <a href="#projects" class="link">
+                        <button class="aboutme-button" aria-label="Botón a sección Proyectos">LO QUE HAGO</button>
+                    </a>
                 </div>
                 <figure class="aboutme-info aboutme-info-two">
                     <img src="./img/00-aboutme.svg" class="aboutme-img" alt="Imagen Aboutme">
@@ -91,29 +92,29 @@
                 <div class="knowledge-grid">
                     <div class="knowledge-item-row">
                         <div class="knowledge-item">
-                            <i class="devicon-html5-plain colored knowledge-icon"></i>
+                            <i class="devicon-html5-plain colored knowledge-icon" aria-hidden="true"></i>
                             <p class="icon-title">HTML 5</p>
                         </div>
                         <div class="knowledge-item">
-                            <i class="devicon-css3-plain colored knowledge-icon"></i>
+                            <i class="devicon-css3-plain colored knowledge-icon" aria-hidden="true"></i>
                             <p class="icon-title">CSS 3</p>
                         </div>
                         <div class="knowledge-item">
-                            <i class="devicon-sass-original colored knowledge-icon"></i>
+                            <i class="devicon-sass-original colored knowledge-icon" aria-hidden="true"></i>
                             <p class="icon-title">Sass</p>
                         </div>
                     </div>
                     <div class="knowledge-item-row">
                         <div class="knowledge-item">
-                            <i class="devicon-javascript-plain colored knowledge-icon"></i>
+                            <i class="devicon-javascript-plain colored knowledge-icon" aria-hidden="true"></i>
                             <p class="icon-title">JavaScript</p></a>
                         </div>
                         <div class="knowledge-item">
-                            <i class="devicon-react-original colored knowledge-icon"></i>
+                            <i class="devicon-react-original colored knowledge-icon" aria-hidden="true"></i>
                             <p class="icon-title">React</p>
                         </div>
                         <div class="knowledge-item">
-                            <i class="devicon-git-plain colored knowledge-icon"></i>
+                            <i class="devicon-git-plain colored knowledge-icon" aria-hidden="true"></i>
                             <p class="icon-title">Git</p>
                         </div>
                     </div>
@@ -125,7 +126,7 @@
         <!-- *** COMIENZA SECCION QUOTE *** -->
         <section class="quote">
             <article class="quote-container">
-                <i class="fas fa-quote-right quote-icon"></i>
+                <i class="fas fa-quote-right quote-icon" aria-hidden="true"></i>
                 <blockquote>
                 <p class="quote-text">Courage doesn't always roar. Sometimes courage is the little voice at the end of the day that says: <q>I'll try again tomorrow</q></p>
                 <p class="quote-translation">El coraje no siempre ruje. A veces coraje es la voz bajita al final del día diciendo: "Trataré otra vez mañana"</p>
@@ -143,44 +144,44 @@
                     <p class="section-description">A continuación presento los proyectos que he realizado durante mi formación como desarrolladora web Front-End.</p>
                 </div>
                 <div class="projects-grid">
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Portafolio">
                         <figure class="projects-item">
                             <img src="./img/01-portfolio.png" class="projects-item-img portfolio-01" alt="Portafolio">
                             <img src="./img/01-portfolio2.png" class="projects-item-img portfolio-02" alt="Portafolio">
                             <figcaption class="projects-item-description">Portfolio</p>
                         </figure>
                     </a>
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Generador de Memes">
                         <figure class="projects-item">
                             <img src="./img/02-generador-memes.svg" class="projects-item-img" alt="Generador de Memes">
                             <figcaption class="projects-item-description">Generador de Memes</p>
                         </figure>
                     </a>
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Match 3">
                         <figure class="projects-item">
                             <img src="./img/03-match3.svg" class="projects-item-img" alt="Match3">
                             <figcaption class="projects-item-description">Match 3</p>
                         </figure>
                     </a>
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Controlador de Gastos">
                         <figure class="projects-item">
                             <img src="./img/04-controlador-gastos.svg" class="projects-item-img" alt="Control de Gastos">
                             <figcaption class="projects-item-description">Controlador de Gastos</p>
                         </figure>
                     </a>
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Administrador de Reuniones">
                         <figure class="projects-item">
                             <img src="./img/05-administrador-reuniones.svg" class="projects-item-img" alt="Adminstrador Reuniones">
                             <figcaption class="projects-item-description">Administrador de Reuniones</p>
                         </figure>
                     </a>
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Todo App">
                         <figure class="projects-item">
                             <img src="./img/06-todo-app.svg" class="projects-item-img" alt="App">
                             <figcaption class="projects-item-description">Todo App</p>
                         </figure>
                     </a>
-                    <a href="#" target="_blanc" class="link">
+                    <a href="#" target="_blanc" class="link" aria-label="Proyecto Buscador de Películas">
                         <figure class="projects-item">
                             <img src="./img/07-buscador-peliculas.svg"  class="projects-item-img" alt="Peliculas">
                             <figcaption class="projects-item-description">Buscador de Películas</p>
@@ -197,53 +198,53 @@
                 <div class="contact-column">
                     <h2 class="section-title form-title">Contáctame</h2>
                     <p class="contact-description">¿Tienes alguna idea que quieras desarrollar o quieres dejarme algún mensaje y/o comentario?<br>¡Escríbeme unas líneas!</p>
-                    <ul class="contact-social-list">
+                    <ul class="contact-social-list" aria-label="Links de Redes Sociales">
                         <li class="contact-social-item">
-                            <a class="contact-social-link link" href="https://twitter.com/MariCaroJ" target="_blanc">
-                                <i class="fab fa-twitter contact-social-icon"></i>@MariCaroJ
+                            <a class="contact-social-link link" href="https://twitter.com/MariCaroJ" target="_blanc" aria-label="Twitter">
+                                <i class="fab fa-twitter contact-social-icon" aria-hidden="true"></i>@MariCaroJ
                             </a>
                         </li>
                         <li class="contact-social-item">
-                            <a class="contact-social-link link" href="https://github.com/maricaroj" target="_blanc">
-                                <i class="fab fa-github-alt contact-social-icon"></i>maricaroj
+                            <a class="contact-social-link link" href="https://github.com/maricaroj" target="_blanc" aria-label="GitHub">
+                                <i class="fab fa-github-alt contact-social-icon" aria-hidden="true"></i>maricaroj
                             </a>
                         </li>
                         <li class="contact-social-item">
-                            <a class="contact-social-link link" href="https://www.linkedin.com/in/marianajuarezolivares/" target="_blanc">
-                                <i class="fab fa-linkedin-in contact-social-icon"></i>Mariana Juárez
+                            <a class="contact-social-link link" href="https://www.linkedin.com/in/marianajuarezolivares/" target="_blanc" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in contact-social-icon" aria-hidden="true"></i>Mariana Juárez
                             </a>
                         </li>
                         <li class="contact-social-item">
-                            <a class="contact-social-link link" href="mailto:juarezmariana18@gmail.com?Subject=Contacto desde el Portafolio">
-                                <i class="fas fa-envelope contact-social-icon"></i>juarezmariana18@gmail.com
+                            <a class="contact-social-link link" href="mailto:juarezmariana18@gmail.com?Subject=Contacto desde el Portafolio" aria-label="Email">
+                                <i class="fas fa-envelope contact-social-icon" aria-hidden="true"></i>juarezmariana18@gmail.com
                             </a>
                         </li>
                     </ul>
                 </div>
                 <!-- *** Columna dos -->
                 <div class="contact-column contact-column-two">
-                    <h2 class="section-title form-title">Escríbeme</h2>
-                    <div class="write-form">
+                    <h2 class="section-title form-title" aria-label="Si deseas Contactarme Rellena este Formulario">Escríbeme</h2>
+                    <div class="write-form" >
                         <form>
                             <div class="write-form-name">
                                 <div class="form-name-box">
                                     <label class="form-label" for="user-name">Nombre*</label>
-                                    <input type="text" name="userName" id="user-name" placeholder="Tu nombre" required>
+                                    <input type="text" name="userName" id="user-name" placeholder="Tu nombre" aria-label="Nombre" required>
                                 </div>
                                 <div class="form-name-box">
                                     <label class="form-label" for="user-lastname">Apellido*</label>
-                                    <input type="text" name="userLastname" id="user-lastname" placeholder="Tu apellido" required>
+                                    <input type="text" name="userLastname" id="user-lastname" placeholder="Tu apellido" aria-label="Apellido" required>
                                 </div>
                             </div>
                             <div class="form-name-box">
                                 <label class="form-label" for="user-email">Email*</label>
-                                <input type="email" name="userEmail" id="user-email" placeholder="email@email.com" required>
+                                <input type="email" name="userEmail" id="user-email" placeholder="email@email.com" aria-label="Email" required>
                             </div>
                             <div class="form-name-box">
                                 <label class="form-label" for="user-message">Mensaje*</label>
-                                <textarea name="userMessage" id="user-message" cols="45" rows="9" placeholder="Tu mensaje aquí" required></textarea>
+                                <textarea name="userMessage" id="user-message" cols="45" rows="9" placeholder="Tu mensaje aquí" aria-label="Mensaje" required></textarea>
                             </div>
-                            <button class="write-form-button" type="submit">Enviar</button>
+                            <button class="write-form-button" type="submit" aria-label="Enviar">Enviar</button>
                         </form>
                     </div>
                 </div>
@@ -273,27 +274,27 @@
         </nav>
         <ul class="footer-social-menu">
             <li class="footer-social-item">
-                <a class="footer-social-link link" href="https://twitter.com/MariCaroJ" target="_blanc">
-                    <i class="fab fa-twitter footer-social-icon"></i>
+                <a class="footer-social-link link" href="https://twitter.com/MariCaroJ" target="_blanc" aria-label="Twitter">
+                    <i class="fab fa-twitter footer-social-icon" aria-hidden="true"></i>
                 </a>
             </li>
             <li class="footer-social-item">
-                <a class="footer-social-link link" href="https://github.com/maricaroj" target="_blanc">
-                    <i class="fab fa-github-alt footer-social-icon"></i>
+                <a class="footer-social-link link" href="https://github.com/maricaroj" target="_blanc" aria-label="Git Hub">
+                    <i class="fab fa-github-alt footer-social-icon" aria-hidden="true"></i>
                 </a>
             </li>
             <li class="footer-social-item">
-                <a class="footer-social-link link" href="https://www.linkedin.com/in/marianajuarezolivares/" target="_blanc">
-                    <i class="fab fa-linkedin-in footer-social-icon"></i>
+                <a class="footer-social-link link" href="https://www.linkedin.com/in/marianajuarezolivares/" target="_blanc" aria-label="Linked In">
+                    <i class="fab fa-linkedin-in footer-social-icon" aria-hidden="true"></i>
                 </a>
             </li>
             <li class="footer-social-item">
-                <a class="footer-social-link link" href="mailto:juarezmariana18@gmail.com?Subject=Contacto desde el Portafolio">
-                    <i class="fas fa-envelope footer-social-icon"></i>
+                <a class="footer-social-link link" href="mailto:juarezmariana18@gmail.com?Subject=Contacto desde el Portafolio" aria-label="Email">
+                    <i class="fas fa-envelope footer-social-icon" aria-hidden="true"></i>
                 </a>
             </li>
         </ul>
-        <p class="footer-text">Hecho con <i class="fas fa-heart footer-heart"></i> por Mariana Juárez</p>
+        <p class="footer-text">Hecho con <i class="fas fa-heart footer-heart" aria-hidden="true"></i> por Mariana Juárez</p>
     </footer>
     <!-- *** TERMINA FOOTER *** -->
 </body>
