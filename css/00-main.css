@@ -39,7 +39,28 @@ body{
     font-size: 1.13rem;
     margin: 15px 0 20px 0;
 }
+.work-in-process{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5rem auto 0 auto; 
+}
+.work-in-process figcaption{
+    text-align: center;
+    font-family: 'Mansalva', cursive;
+    font-size: 3.75em;
+    font-weight: 900;
+    color: var(--darkPink);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.637);
+}
 
+.return-link{
+    position: relative;
+    top: 80px;
+    left: 50px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 /* COMIENZAN MEDIA QUERIES */
 @media(max-width: 600px){
     .section-title{
